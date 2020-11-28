@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Dec 16 16:53:22 2019
+# Process ID: 11512
+# Current directory: D:/VerilogCode/Project_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15340 D:\VerilogCode\Project_Final\Project_Final.xpr
+# Log file: D:/VerilogCode/Project_Final/vivado.log
+# Journal file: D:/VerilogCode/Project_Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerilogCode/Project_Final/Project_Final.xpr
+open_bd_design {D:/VerilogCode/Project_Final/Project_Final.srcs/sources_1/bd/design_1/design_1.bd}
+update_compile_order -fileset sources_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/VerilogCode/Project_Final/Project_Final.srcs/sources_1/bd/design_1/design_1.bd]
+synth_design -rtl -name rtl_1
+open_bd_design {D:/VerilogCode/Project_Final/Project_Final.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {D:/VerilogCode/Project_Final/Project_Final.srcs/sources_1/bd/design_1/design_1.bd}
+set_property location {5 1868 761} [get_bd_cells processing_system7_0]
+open_bd_design {D:/VerilogCode/Project_Final/Project_Final.srcs/sources_1/bd/design_1/design_1.bd}
+set_property location {3 988 -49} [get_bd_cells clk_wiz_0]
+set_property location {3 1158 315} [get_bd_cells ps7_0_axi_periph]
+set_property location {3 1001 980} [get_bd_cells axi_vdma_0]
+set_property location {1 74 -32} [get_bd_cells ps7_0_axi_periph]
+set_property location {5 1844 -73} [get_bd_cells v_tc_0]
+set_property location {0.5 -275 527} [get_bd_cells axis_subset_converter_0]
+set_property location {1 -312 995} [get_bd_cells axi_smc]
+set_property location {4 1158 597} [get_bd_cells processing_system7_0]
+set_property location {4 1090 894} [get_bd_cells axi_vdma_0]
+set_property location {3.5 721 588} [get_bd_cells v_vid_in_axi4s_0]
+set_property location {5.5 1587 609} [get_bd_cells v_axi4s_vid_out_0]
+set_property location {5 1076 319} [get_bd_cells ps7_0_axi_periph]
+set_property location {6 1505 371} [get_bd_cells rst_ps7_0_50M]
+set_property location {6 1568 198} [get_bd_cells v_tc_0]
+set_property location {4 662 246} [get_bd_cells OV_Sensor_ML_0]
+set_property location {4 618 492} [get_bd_cells axis_subset_converter_0]
+set_property location {4 517 978} [get_bd_cells axi_smc]
+set_property location {5 1656 959} [get_bd_cells rgb2dvi_0]
+set_property location {5 1695 54} [get_bd_cells clk_wiz_0]
+set_property location {4.5 1405 72} [get_bd_cells GND]
+set_property location {5.5 1561 89} [get_bd_cells GND]
+set_property location {1 8 519} [get_bd_cells VCC]
+set_property location {1 -24 156} [get_bd_cells GND]
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+set_property location {4 604 997} [get_bd_cells axi_smc]
+set_property location {4.5 1407 297} [get_bd_cells v_tc_0]
+set_property location {5 1357 489} [get_bd_cells rst_ps7_0_50M]
+set_property location {5 1434 734} [get_bd_cells v_axi4s_vid_out_0]
+set_property location {5 1328 1040} [get_bd_cells rgb2dvi_0]
+set_property location {3 346 335} [get_bd_cells OV_Sensor_ML_0]
+set_property location {4 650 1113} [get_bd_cells clk_wiz_0]
+set_property location {3.5 558 1099} [get_bd_cells clk_wiz_0]
+set_property location {4 586 304} [get_bd_cells GND]
+set_property location {4 596 499} [get_bd_cells VCC]
+set_property location {3 515 770} [get_bd_cells xlconstant_0]
+regenerate_bd_layout
+launch_sdk -workspace D:/VerilogCode/Project_Final/Project_Final.sdk -hwspec D:/VerilogCode/Project_Final/Project_Final.sdk/design_1_wrapper.hdf
+close_design
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/VerilogCode/Project_Final/Project_Final.srcs/sources_1/bd/design_1/design_1.bd]
+synth_design -rtl -name rtl_1
+open_bd_design {D:/VerilogCode/Project_Final/Project_Final.srcs/sources_1/bd/design_1/design_1.bd}
+regenerate_bd_layout
+launch_sdk -workspace D:/VerilogCode/Project_Final/Project_Final.sdk -hwspec D:/VerilogCode/Project_Final/Project_Final.sdk/design_1_wrapper.hdf
